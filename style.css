@@ -3,7 +3,38 @@
     margin : 0;
     box-sizing:  border-box;
     font-family: 'Poppins', sans-serif;
-
+    
+}
+span{
+    font-size: large;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.contact{
+    color:#fc2945;
+    margin-bottom: 30px;
+}
+i{
+    color: #fc2945;
+    margin-bottom: 20px;
+    font-size: large;
+}
+input{
+    margin-bottom: 20px;
+}
+.text-center {
+    margin-top: 15px;
+}
+.btn {
+    background: #fc2945;
+}
+.col-md-7{
+    margin-bottom: 15px;
+    gap: 20px;
 }
 body{
     background: #080808;
@@ -17,6 +48,17 @@ body{
 }
 .logo::first-letter{
     color:#fc2945;
+}
+#Download-CV{
+    background-color: #fc2945;
+    color: #fff;
+    border-radius: 10px;
+    padding: auto;
+}
+.form{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30vh;
 }
 .logo{
  font-size: 35px;
@@ -73,7 +115,11 @@ a:hover{
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
   }
-  .text{
+  #text{
     margin-left: 25vh;
     margin-top: 20vh;
+    font-size: 40px;
+    color:  #fc2945;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
   }
